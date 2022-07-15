@@ -26,7 +26,7 @@ func main() {
 
 	// Or extend your config for customization
 	app.Use(cors.New(cors.Config{
-		AllowOrigins: "http://127.0.0.1:3000",
+		AllowOrigins: "*",
 		AllowHeaders: "Origin, Content-Type, Accept",
 	}))
 
