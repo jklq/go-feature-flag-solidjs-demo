@@ -1,0 +1,5 @@
+color-flag:
+  percentage: 50
+  true: green
+  false: red 
+  default: grey
